@@ -10,6 +10,8 @@
 
 ![Lattice Hero](./lattice_intro/1.png)
 
+ **系统要求:** macOS 15.0 (Sequoia) 或者更新.  专为发挥最新原生技术优势而打造。
+
 ## 概览
 
 Lattice 面向的是一类很明确的用户:

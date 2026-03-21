@@ -10,6 +10,8 @@ Lattice is written in native Swift. It is not a web wrapper, not an Electron she
 
 ![Lattice Hero](./lattice_intro/1_en.png)
 
+**System Requirement:** macOS 15.0 (Sequoia) or later. *Built to leverage the latest native technologies.*
+
 ## Overview
 
 Lattice is built for a very specific kind of user:
