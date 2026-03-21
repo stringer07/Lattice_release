@@ -495,11 +495,3 @@ Lattice is built for that exact job.
 3. Use Search, Collections, Tags, and Missing DOI / Missing Attachment views to organize the library
 4. Continue reading in the PDF app you already trust
 
-## Screenshot Index
-
-- Main library view: `./lattice_intro/2_en.png`
-- Minimal layout direction: `./lattice_intro/3_en.png`
-- Import and metadata flow: `./lattice_intro/4_en.png`
-- PDF annotation extraction: `./lattice_intro/5_en.png`
-- Apple Shortcuts integration: `./lattice_intro/6_en.png`
-- Template-based export: `./lattice_intro/7_en.png`
