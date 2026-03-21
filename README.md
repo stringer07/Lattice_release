@@ -1,9 +1,11 @@
 # Lattice
 
+Chinese version: [README.zh-CN.md](./README.zh-CN.md)
+
 A lightweight literature manager built specifically for macOS.  
 Lattice is written in native Swift. It is not a web wrapper, not an Electron shell, and not an attempt to replace your entire reading setup. Instead, it focuses on doing a few things extremely well: metadata management, PDF annotation extraction, template-based export, and automation-friendly integration with the rest of your workflow.
 
-![Lattice Hero](./lattice_intro/1.png)
+![Lattice Hero](./lattice_intro/1_en.png)
 
 ## Overview
 
@@ -45,9 +47,9 @@ Lattice is minimal in the right places:
 
 Core information stays visible in one coherent window. You do not have to jump through layers of views just to keep your library tidy.
 
-![Main Interface](./lattice_intro/2.png)
+![Main Interface](./lattice_intro/2_en.png)
 
-![Minimal Layout](./lattice_intro/3.png)
+![Minimal Layout](./lattice_intro/3_en.png)
 
 ### 3. Lightweight by design
 
@@ -184,7 +186,7 @@ Duplicate handling stays explicit and practical:
 - Replace
 - batch imports can apply the same choice to all duplicates
 
-![Import And Metadata](./lattice_intro/4.png)
+![Import And Metadata](./lattice_intro/4_en.png)
 
 ### 4. Automatic metadata extraction and enrichment
 
@@ -295,7 +297,7 @@ For square and circle annotations, Lattice also renders an image of the marked r
 - diagram snippets
 - visual references that should survive export
 
-![PDF Annotation Extraction](./lattice_intro/5.png)
+![PDF Annotation Extraction](./lattice_intro/5_en.png)
 
 ### 9. Detail inspector
 
@@ -367,7 +369,7 @@ Available variables:
 
 This gives you real control over how a paper becomes a note.
 
-![Template Export](./lattice_intro/7.png)
+![Template Export](./lattice_intro/7_en.png)
 
 ### 11. Markdown and TextBundle export
 
@@ -428,7 +430,7 @@ This makes it easy to connect Lattice to tools like:
 
 Lattice is not trying to replace your notes app. It is trying to connect your paper library to it.
 
-![Shortcuts Integration](./lattice_intro/6.png)
+![Shortcuts Integration](./lattice_intro/6_en.png)
 
 ### 14. Everyday quality-of-life details
 
@@ -492,9 +494,9 @@ Lattice is built for that exact job.
 
 ## Screenshot Index
 
-- Main library view: `./lattice_intro/2.png`
-- Minimal layout direction: `./lattice_intro/3.png`
-- Import and metadata flow: `./lattice_intro/4.png`
-- PDF annotation extraction: `./lattice_intro/5.png`
-- Apple Shortcuts integration: `./lattice_intro/6.png`
-- Template-based export: `./lattice_intro/7.png`
+- Main library view: `./lattice_intro/2_en.png`
+- Minimal layout direction: `./lattice_intro/3_en.png`
+- Import and metadata flow: `./lattice_intro/4_en.png`
+- PDF annotation extraction: `./lattice_intro/5_en.png`
+- Apple Shortcuts integration: `./lattice_intro/6_en.png`
+- Template-based export: `./lattice_intro/7_en.png`
