@@ -1,6 +1,6 @@
 # Lattice
 
- [English](./README.md) | 更新日志: [CHANGELOG.zh-CN.md](./CHANGELOG.zh-CN.md) 
+ [English](./README.md) |  [更新日志](./CHANGELOG.zh-CN.md) 
 
 > **安装提示**  
 > 首次打开应用时，macOS 可能会提示“无法验证该应用是否安全”或类似警告。这是因为当前版本尚未通过 Apple Developer Program 完成签名与公证。由于目前仍是个人独立开发阶段，暂未加入 Apple Developer Program（年费 99 美元）。若需要继续打开，请前往 `系统设置` -> `隐私与安全性`，在相关安全提示处点击 `仍要打开`。后续会根据使用反馈继续完善，并考虑提供经过正式签名与公证的版本。该应用也是开发者本人日常使用的软件，不包含恶意代码。

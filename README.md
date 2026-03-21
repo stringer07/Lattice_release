@@ -1,6 +1,6 @@
 # Lattice
 
- [中文](./README.zh-CN.md) | Changelog: [CHANGELOG.md](./CHANGELOG.md) 
+ [中文](./README.zh-CN.md) |  [Changelog](./CHANGELOG.md) 
 
 > **Installation Note**  
 > When opening the app for the first time, macOS may display a warning such as "Apple cannot verify this app" or similar. This is because the current build has not yet been signed and notarized through the Apple Developer Program. At the moment, this remains an independently developed project, and I have not yet enrolled in Apple's USD 99/year developer program. If you would like to proceed, open `System Settings` -> `Privacy & Security`, locate the relevant security prompt, and click `Open Anyway`. A properly signed and notarized release may be provided later after further feedback and iteration. This app is also used by its own developer in daily work and does not contain malicious code.
