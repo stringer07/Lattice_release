@@ -4,6 +4,13 @@
 
 This file records notable changes for Lattice.
 
+## v1.0-beta5 - 2026-03-23
+
+#### Major
+
+- Added PDF attachment organizing: you can now specify whether to move or copy attachments into a chosen folder and have them grouped by year, collection, or the first letter of the author’s surname.
+- Rebuilt the Settings page for a cleaner, more coordinated, and more refined layout.
+
 ## v1.0-beta4-pre2 - 2026-03-22
 
 #### Added
