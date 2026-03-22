@@ -4,6 +4,12 @@
 
 This file records notable changes for Lattice.
 
+## v1.0-beta4-pre2 - 2026-03-22
+
+#### Added
+
+- Added a new `General` section in Settings where users can manually specify their preferred PDF reader and the app appearance; the main window now labels the placeholder item list as `Missing PDF` instead of `Missing Attachment` for a cleaner visual match.
+
 ## v1.0-beta4-pre1 - 2026-03-22
 
 #### Note

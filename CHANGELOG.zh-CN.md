@@ -4,6 +4,12 @@
 
 本文件记录 Lattice 的重要版本变更。
 
+## v1.0-beta4-pre2 - 2026-03-22
+
+#### 新增
+
+- 设置页面新增 `General` 选项，可手动指定 PDF 阅读器与软件外观；主界面原先的 `Missing Attachment` 文案调整为 `Missing PDF`，视觉上更协调。
+
 ## v1.0-beta4-pre1 - 2026-03-22
 
 #### 说明
