@@ -238,22 +238,22 @@ That gives you several benefits:
 - you do not have to abandon your existing reading habits
 - you keep using the best reader for the job
 
-### 6. Linked PDFs instead of duplicated PDFs
+### 6. Linked PDFs & Auto-organization on disk
 
-Lattice handles PDFs in a deliberately restrained way:
+![Auto-organization](./lattice_intro/8_en.png)
 
-- it creates a secure link to the original file
-- it does not copy the PDF into a private library sandbox
-- it avoids duplicate files
-- it respects your current Finder organization
+Lattice handles PDFs in a deliberately restrained way. It does not duplicate your PDFs into its own private, hidden app sandbox. Instead, it creates a secure link to the attachment, keeping Lattice's storage footprint incredibly small.
 
-From Lattice you can:
+But more than just linking, **Lattice can help you automatically organize your PDFs on your disk.**
+In `Settings` -> `General`, you can specify a target folder (like an iCloud Drive or Dropbox folder for syncing) and choose an organization method (copy or move). Lattice will then automatically sort your PDFs into beautifully structured subfolders based on year, collection, or other criteria.
+
+Your file structure remains clean, accessible, and completely under your control. From Lattice you can:
 
 - open the PDF
 - reveal the PDF in Finder
 - replace the linked PDF
 
-This is especially useful if you already maintain a local archive and want the manager to stay out of the way.
+This is especially useful if you already maintain a local archive and want the manager to help you organize it automatically, rather than forcing you to migrate into a closed system.
 
 ### 7. Space-to-preview Quick Look
 
