@@ -4,6 +4,12 @@
 
 This file records notable changes for Lattice.
 
+## v1.0-beta6 - 2026-03-24
+
+#### Major
+
+- Fully rebuilt the Settings UI using AppKit. This is a substantial refactor and should also help resolve the previous layout compression issues on different monitor sizes.
+
 ## v1.0-beta5 - 2026-03-23
 
 #### Major
