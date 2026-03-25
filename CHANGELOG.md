@@ -4,6 +4,15 @@
 
 This file records notable changes for Lattice.
 
+## v1.0-beta7 - 2026-03-25
+
+#### Major
+
+- Items added via drag-and-drop or creation while a specific collection/tag is selected now inherit that collection/tag, and organize operations follow the currently selected collection.
+- Added PDF renaming: configure a naming template and either rename attachments via the item context menu or auto-rename on import.
+- Added an option to delete the PDF attachment when deleting an item.
+- Merged Export and Citation settings into a single tab to keep the Settings page simpler.
+
 ## v1.0-beta6 - 2026-03-24
 
 #### Major
