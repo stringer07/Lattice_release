@@ -4,6 +4,15 @@
 
 This file records notable changes for Lattice.
 
+## v1.0-beta8 - 2026-03-27
+
+#### Major
+
+- Added folder drag-and-drop import: Lattice now recursively scans the dropped folder and subfolders for PDFs and imports them.
+- Import/refresh now shows a progress bar indicator.
+- Enhanced metadata retrieval to cover more cases that previously failed.
+- Tweaked the Settings layout so the “Lattice Settings” title no longer overlaps the content.
+
 ## v1.0-beta7 - 2026-03-25
 
 #### Major
