@@ -4,6 +4,18 @@
 
 This file records notable changes for Lattice.
 
+## v1.0-beta9 - 2026-03-28
+
+#### Major
+
+- Added book metadata retrieval support.
+- Further improved metadata retrieval accuracy and speed.
+- Moved the metadata retrieval progress bar to the left column so it stays quieter and less intrusive.
+- Added full help documentation, available from `Help` in the top-right corner and from `Lattice Help`.
+- Added light cleanup for PDF annotations so extracted content reads more naturally.
+- Refined the typography in the right-side detail inspector for better visual consistency.
+- Refreshing metadata from the context menu now updates only metadata and PDF annotations; it no longer organizes or renames PDFs as part of the refresh flow.
+
 ## v1.0-beta8 - 2026-03-27
 
 #### Major
