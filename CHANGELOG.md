@@ -4,6 +4,13 @@
 
 This file records notable changes for Lattice.
 
+## v1.0-beta10 - 2026-03-28
+
+#### Major
+
+- Added language switching in Settings, with support for Simplified Chinese and English.
+- Refined the layout of the right-side detail inspector so page numbers no longer wrap automatically and disrupt the visual rhythm.
+
 ## v1.0-beta9 - 2026-03-28
 
 #### Major
