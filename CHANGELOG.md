@@ -4,6 +4,16 @@
 
 This file records notable changes for Lattice.
 
+## v1.0-beta11-pre1 - 2026-03-28
+
+#### Improved
+
+- Strengthened abstract retrieval so more abstracts can be found reliably.
+
+#### Fixed
+
+- Fixed some cases where PDFs could be matched to incorrect metadata.
+
 ## v1.0-beta10 - 2026-03-28
 
 #### Major
