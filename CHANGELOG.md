@@ -4,6 +4,13 @@
 
 This file records notable changes for Lattice.
 
+## v1.0-rc - 2026-03-31
+
+#### Major
+
+- Modified the shortcut popup page; selecting papers via shortcuts now supports searching.
+- Renamed the application to Lattice Scholar to avoid naming conflicts with existing apps.
+
 ## v1.0-beta11-pre1 - 2026-03-28
 
 #### Improved
