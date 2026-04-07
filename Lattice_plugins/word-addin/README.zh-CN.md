@@ -57,17 +57,31 @@
 
 ## 安装方式
 
+先下载发布包：
+
+- Release 页面：
+  `https://github.com/stringer07/Lattice_release/releases/tag/word-addin-v1.0.0.0`
+- 当前 zip 直链：
+  `https://github.com/stringer07/Lattice_release/releases/download/word-addin-v1.0.0.0/Lattice-Word-Addin-macOS-1.0.0.0.zip`
+
+安装步骤：
+
 1. 至少先启动一次 Lattice Scholar。
 2. 在 Lattice Scholar 中启用 Local API。
 3. 保持 Lattice Scholar 处于运行状态。
-4. 在当前目录执行安装脚本：
+4. 下载 `Lattice-Word-Addin-macOS-1.0.0.0.zip`。
+5. 解压下载得到的 zip 文件。
+6. 打开解压后的 `Lattice-Word-Addin-macOS-1.0.0.0/word-addin/` 文件夹。
+7. 双击 `install.command` 运行安装脚本。
+
+如果你更习惯命令行，也可以执行：
 
 ```bash
-cd word-addin
+cd Lattice-Word-Addin-macOS-1.0.0.0/word-addin
 ./install.command
 ```
 
-你也可以在 Finder 中打开 `word-addin` 文件夹，直接双击 `install.command` 运行安装脚本。
+如果 macOS 阻止脚本运行，可以在 Finder 中右键 `install.command`，选择“打开/Open”，然后再次确认打开。
 
 安装完成后：
 
@@ -95,16 +109,17 @@ cd word-addin
 ## 卸载方式
 
 1. 退出 Microsoft Word。
-2. 执行：
+2. 打开之前解压得到的 `Lattice-Word-Addin-macOS-1.0.0.0/word-addin/` 文件夹。
+3. 双击 `uninstall.command`。
+
+如果你更习惯命令行，也可以执行：
 
 ```bash
-cd word-addin
+cd Lattice-Word-Addin-macOS-1.0.0.0/word-addin
 ./uninstall.command
 ```
 
-你也可以在 Finder 中打开 `word-addin` 文件夹，直接双击 `uninstall.command` 进行卸载。
-
-3. 重新打开 Word。
+4. 重新打开 Word。
 
 卸载会删除以下内容：
 

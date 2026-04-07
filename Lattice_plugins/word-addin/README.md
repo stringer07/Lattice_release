@@ -57,17 +57,31 @@ Because of this architecture, Lattice Scholar must be running whenever Word need
 
 ## Install
 
+Download the release package first:
+
+- Release page:
+  `https://github.com/stringer07/Lattice_release/releases/tag/word-addin-v1.0.0.0`
+- Direct zip download:
+  `https://github.com/stringer07/Lattice_release/releases/download/word-addin-v1.0.0.0/Lattice-Word-Addin-macOS-1.0.0.0.zip`
+
+Installation steps:
+
 1. Launch Lattice Scholar at least once.
 2. Enable the Local API in Lattice Scholar.
 3. Keep Lattice Scholar running.
-4. Run the installer from this directory:
+4. Download `Lattice-Word-Addin-macOS-1.0.0.0.zip`.
+5. Extract the downloaded zip file.
+6. Open the extracted `Lattice-Word-Addin-macOS-1.0.0.0/word-addin/` folder.
+7. Double-click `install.command` to run the installer.
+
+If you prefer the command line, run:
 
 ```bash
-cd word-addin
+cd Lattice-Word-Addin-macOS-1.0.0.0/word-addin
 ./install.command
 ```
 
-You can also open the `word-addin` folder in Finder and double-click `install.command` to run the installer directly.
+If macOS blocks the script, right-click `install.command`, choose `Open`, and confirm the prompt.
 
 After installation:
 
@@ -95,16 +109,17 @@ What happens during update:
 ## Uninstall
 
 1. Quit Microsoft Word.
-2. Run:
+2. Open the extracted `Lattice-Word-Addin-macOS-1.0.0.0/word-addin/` folder.
+3. Double-click `uninstall.command`.
+
+If you prefer the command line, run:
 
 ```bash
-cd word-addin
+cd Lattice-Word-Addin-macOS-1.0.0.0/word-addin
 ./uninstall.command
 ```
 
-You can also open the `word-addin` folder in Finder and double-click `uninstall.command` to uninstall directly.
-
-3. Reopen Word.
+4. Reopen Word.
 
 This removes:
 
