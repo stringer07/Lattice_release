@@ -1,0 +1,24 @@
+# REUSE.toml — machine-readable license annotations
+# See https://reuse.software/spec/ for the specification.
+version = 1
+
+[[annotations]]
+path = "word-addin/web/vendor/citeproc/**"
+SPDX-License-Identifier = "CPAL-1.0"
+SPDX-FileCopyrightText = "Copyright (c) 2009-2019 Frank Bennett"
+
+[[annotations]]
+path = "word-addin/web/vendor/csl/**"
+SPDX-License-Identifier = "CC-BY-SA-3.0"
+SPDX-FileCopyrightText = "Citation Style Language Project"
+
+[[annotations]]
+path = "word-addin/web/vendor/locales/**"
+SPDX-License-Identifier = "CC-BY-SA-3.0"
+SPDX-FileCopyrightText = "Citation Style Language Project"
+
+[[annotations]]
+path = "**"
+precedence = "aggregate"
+SPDX-License-Identifier = "LicenseRef-PolyForm-Shield-1.0.0"
+SPDX-FileCopyrightText = "Copyright (c) 2026 The Lattice Scholar Project Contributors"

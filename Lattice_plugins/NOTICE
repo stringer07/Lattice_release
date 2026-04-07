@@ -1,0 +1,15 @@
+Effective date: 2026-04-07
+Version: 1.0
+
+Required Notice: Copyright (c) 2026 The Lattice Scholar Project Contributors. All rights in original project-authored material are reserved except as expressly licensed.
+Required Notice: Original project source: Lattice Scholar plugins repository for the Lattice Scholar reference-management application.
+Required Notice: Upstream project URL: https://github.com/stringer07/Lattice_release
+Required Notice: Support page: https://stringer07.github.io/Lattice_release/
+Required Notice: If you publicly redistribute this software or a modified version, you must include prominent attribution to the Lattice Scholar project. "Prominent" means easily discoverable by an end user — not buried in source code or legal files alone. Attribution must appear in at least one of: a public README or equivalent documentation, an "About" or "Credits" section visible to end users, or the project's public repository description or landing page. Attribution must include the name "Lattice Scholar" and a link to the upstream project page.
+Required Notice: Required attribution to the Lattice Scholar project must not be removed, hidden, obscured, or made functionally inaccessible by any downstream modification, fork, repackaging, rebranding, or redistribution. Replacing the attribution surface with a non-equivalent or hidden surface (for example, moving it from a visible README or About panel into a buried legal file) is a violation of this notice.
+Required Notice: Bundled third-party components carry their own user-visible attribution obligations (notably citeproc-js under CPAL §14 and CSL styles under CC BY-SA 3.0). Downstream redistributors must preserve a functionally equivalent user-visible attribution surface for these components, as currently provided by the Credits panel in the Word add-in taskpane.
+Required Notice: When this software is redistributed as a component, module, or embedded library within a larger product, the "Lattice Scholar" attribution and upstream URL must still appear in a user-visible part of that larger product's about/credits surface.
+Required Notice: Derivative works produced wholly or in part by automated code generation, transformation, or model-assisted synthesis from this software remain subject to these Required Notice lines.
+Required Notice: Use of this software or its source code as input to machine-learning training, fine-tuning, or distillation is permitted only if the resulting model is not used to produce, operate, or market a product that would itself violate the Noncompete clause of PolyForm Shield 1.0.0.
+Required Notice: This repository is source-available under PolyForm Shield 1.0.0 and is not offered as OSI-approved open source software.
+Licensor Line of Business: Reference-management software, citation/document workflow tools, and related plugins and extensions, including the Lattice Scholar application and companion integrations.

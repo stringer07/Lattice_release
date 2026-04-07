@@ -1,0 +1,111 @@
+<!doctype html>
+<!--
+  SPDX-License-Identifier: LicenseRef-PolyForm-Shield-1.0.0
+  Copyright (c) 2026 The Lattice Scholar Project Contributors
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lattice Citations</title>
+    <link rel="stylesheet" href="./taskpane.css">
+    <script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script>
+    <script src="../vendor/citeproc/citeproc.js"></script>
+    <script type="module" src="./taskpane.js"></script>
+  </head>
+  <body>
+    <div class="app">
+      <header class="app-header">
+        <span class="brand">Lattice Scholar</span>
+        <button id="reconnect-button" class="connection-badge" type="button" title="Click to reconnect">
+          <span class="connection-dot" id="connection-dot"></span>
+          <span id="bridge-status">Connecting</span>
+        </button>
+      </header>
+
+      <div class="search-wrapper">
+        <svg class="search-icon" width="14" height="14" viewBox="0 0 16 16" fill="none">
+          <path d="M7 12A5 5 0 1 0 7 2a5 5 0 0 0 0 10zM14.5 14.5l-3.6-3.6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+        <input id="search-input" class="search-input" type="search" placeholder="Title, author, year, or citekey…">
+      </div>
+
+      <div class="results-scroll">
+        <div id="search-results" class="results" aria-live="polite"></div>
+      </div>
+
+      <footer class="app-footer">
+        <div class="style-row">
+          <label class="footer-label" for="style-select">Citation Style</label>
+          <select id="style-select" class="style-select"></select>
+        </div>
+        <div class="custom-csl-row">
+          <label class="text-link" for="custom-style-input">Load custom CSL…</label>
+          <input id="custom-style-input" type="file" accept=".csl,.xml,text/xml" hidden>
+          <span id="custom-style-label" class="hint"></span>
+        </div>
+        <button id="update-button" class="update-button" type="button">Update Citations & Bibliography</button>
+        <p id="document-status" class="status-message"></p>
+        <div class="credits-row">
+          <button id="credits-toggle" class="credits-toggle" type="button" aria-expanded="false" aria-controls="credits-panel">
+            Credits & Open Source Notices
+          </button>
+        </div>
+      </footer>
+
+      <div id="credits-panel" class="credits-panel" hidden role="dialog" aria-modal="true" aria-labelledby="credits-title">
+        <div class="credits-card">
+          <div class="credits-head">
+            <h2 id="credits-title" class="credits-title">Credits &amp; Open Source Notices</h2>
+            <button id="credits-close" class="credits-close" type="button" aria-label="Close credits">&times;</button>
+          </div>
+          <div class="credits-body">
+            <p class="credits-lead">
+              The Lattice Scholar Word add-in is built by
+              <a href="https://github.com/stringer07/Lattice_release" class="credits-link" target="_blank" rel="noopener noreferrer">The Lattice Scholar Project Contributors</a>
+              and ships with the third-party software listed below. Each component remains under its own upstream license.
+            </p>
+
+            <h3 class="credits-section">citeproc-js</h3>
+            <p class="credits-text">
+              Citation rendering and bibliography formatting are powered by
+              <strong>citeproc-js</strong>, a JavaScript implementation of the Citation Style Language by
+              <strong>Frank Bennett</strong>.
+            </p>
+            <p class="credits-text">
+              Copyright &copy; 2009&ndash;2019 Frank Bennett. Used by Lattice Scholar under the
+              <strong>Common Public Attribution License (CPAL) version 1</strong>, as elected from
+              the dual-license option offered in the upstream source header.
+            </p>
+            <p class="credits-text">
+              Upstream project:
+              <a href="https://github.com/Juris-M/citeproc-js" class="credits-link" target="_blank" rel="noopener noreferrer">github.com/Juris-M/citeproc-js</a>
+            </p>
+
+            <h3 class="credits-section">Citation Style Language (CSL) styles &amp; locales</h3>
+            <p class="credits-text">
+              The bundled <em>IEEE</em> and <em>APA</em> citation styles, and the English locale data,
+              are sourced from the
+              <strong>Citation Style Language</strong> project. They are distributed under the
+              <strong>Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)</strong> license.
+            </p>
+            <p class="credits-text">
+              Upstream project:
+              <a href="https://citationstyles.org/" class="credits-link" target="_blank" rel="noopener noreferrer">citationstyles.org</a>
+              &middot;
+              <a href="https://github.com/citation-style-language/styles" class="credits-link" target="_blank" rel="noopener noreferrer">CSL styles repository</a>
+            </p>
+
+            <h3 class="credits-section">Lattice Scholar plugins</h3>
+            <p class="credits-text">
+              Lattice Scholar plugin source code is published under the
+              <strong>PolyForm Shield 1.0.0</strong> source-available license. See the
+              <a href="https://github.com/stringer07/Lattice_release" class="credits-link" target="_blank" rel="noopener noreferrer">project repository</a>
+              for full license, notice, and trademark documents.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

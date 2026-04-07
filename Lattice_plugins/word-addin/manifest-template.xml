@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<OfficeApp
+  xmlns="http://schemas.microsoft.com/office/appforoffice/1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0"
+  xmlns:ov="http://schemas.microsoft.com/office/taskpaneappversionoverrides"
+  xsi:type="TaskPaneApp">
+  <Id>57fc7f0d-4ea9-4fcb-9b22-20f601fdeba5</Id>
+  <Version>1.0.0.0</Version>
+  <ProviderName>Lattice</ProviderName>
+  <DefaultLocale>en-US</DefaultLocale>
+  <DisplayName DefaultValue="Lattice Citations"/>
+  <Description DefaultValue="Search your Lattice library from Word and generate citations plus a bibliography."/>
+  <IconUrl DefaultValue="__PUBLIC_ORIGIN__/plugins/word-addin/assets/icon-32.png"/>
+  <HighResolutionIconUrl DefaultValue="__PUBLIC_ORIGIN__/plugins/word-addin/assets/icon-80.png"/>
+  <SupportUrl DefaultValue="https://stringer07.github.io/Lattice_release/"/>
+  <AppDomains>
+    <AppDomain>__PUBLIC_ORIGIN__</AppDomain>
+  </AppDomains>
+  <Hosts>
+    <Host Name="Document"/>
+  </Hosts>
+  <Requirements>
+    <Sets DefaultMinVersion="1.4">
+      <Set Name="WordApi" MinVersion="1.4"/>
+    </Sets>
+  </Requirements>
+  <DefaultSettings>
+    <SourceLocation DefaultValue="__PUBLIC_ORIGIN__/plugins/word-addin/taskpane/taskpane.html"/>
+  </DefaultSettings>
+  <Permissions>ReadWriteDocument</Permissions>
+  <VersionOverrides xmlns="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="VersionOverridesV1_0">
+    <Hosts>
+      <Host xsi:type="Document">
+        <DesktopFormFactor>
+          <GetStarted>
+            <Title resid="GetStarted.Title"/>
+            <Description resid="GetStarted.Description"/>
+            <LearnMoreUrl resid="Support.Url"/>
+          </GetStarted>
+          <FunctionFile resid="Commands.Url"/>
+          <ExtensionPoint xsi:type="PrimaryCommandSurface">
+            <OfficeTab id="TabHome">
+              <Group id="Lattice.Group">
+                <Label resid="Lattice.GroupLabel"/>
+                <Icon>
+                  <bt:Image size="16" resid="Icon.16"/>
+                  <bt:Image size="32" resid="Icon.32"/>
+                  <bt:Image size="80" resid="Icon.80"/>
+                </Icon>
+                <Control xsi:type="Button" id="Lattice.ShowTaskpane">
+                  <Label resid="Lattice.ButtonLabel"/>
+                  <Supertip>
+                    <Title resid="Lattice.ButtonLabel"/>
+                    <Description resid="Lattice.ButtonDescription"/>
+                  </Supertip>
+                  <Icon>
+                    <bt:Image size="16" resid="Icon.16"/>
+                    <bt:Image size="32" resid="Icon.32"/>
+                    <bt:Image size="80" resid="Icon.80"/>
+                  </Icon>
+                  <Action xsi:type="ShowTaskpane">
+                    <TaskpaneId>LatticeTaskpane</TaskpaneId>
+                    <SourceLocation resid="Taskpane.Url"/>
+                  </Action>
+                </Control>
+              </Group>
+            </OfficeTab>
+          </ExtensionPoint>
+        </DesktopFormFactor>
+      </Host>
+    </Hosts>
+    <Resources>
+      <bt:Images>
+        <bt:Image id="Icon.16" DefaultValue="__PUBLIC_ORIGIN__/plugins/word-addin/assets/icon-16.png"/>
+        <bt:Image id="Icon.32" DefaultValue="__PUBLIC_ORIGIN__/plugins/word-addin/assets/icon-32.png"/>
+        <bt:Image id="Icon.80" DefaultValue="__PUBLIC_ORIGIN__/plugins/word-addin/assets/icon-80.png"/>
+      </bt:Images>
+      <bt:Urls>
+        <bt:Url id="Commands.Url" DefaultValue="__PUBLIC_ORIGIN__/plugins/word-addin/commands/commands.html"/>
+        <bt:Url id="Support.Url" DefaultValue="https://stringer07.github.io/Lattice_release/"/>
+        <bt:Url id="Taskpane.Url" DefaultValue="__PUBLIC_ORIGIN__/plugins/word-addin/taskpane/taskpane.html"/>
+      </bt:Urls>
+      <bt:ShortStrings>
+        <bt:String id="GetStarted.Title" DefaultValue="Lattice Citations"/>
+        <bt:String id="Lattice.ButtonLabel" DefaultValue="Lattice"/>
+        <bt:String id="Lattice.GroupLabel" DefaultValue="Lattice"/>
+      </bt:ShortStrings>
+      <bt:LongStrings>
+        <bt:String id="GetStarted.Description" DefaultValue="Search your Lattice library and insert citations without leaving Word."/>
+        <bt:String id="Lattice.ButtonDescription" DefaultValue="Open the Lattice citation task pane."/>
+      </bt:LongStrings>
+    </Resources>
+  </VersionOverrides>
+</OfficeApp>
