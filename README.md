@@ -5,6 +5,8 @@
 > **⚠️ Test & Preview Version Notice**  
 > This repository provides **test and preview versions** of Lattice Scholar, which are intended for test community feedback. Please note that **stability is not fully guaranteed** in these builds.
 > 
+> **Latest Beta on TestFlight**: You can test the newest beta builds on TestFlight: https://testflight.apple.com/join/xBV767wY
+> 
 > **Installation Note**: Due to being distributed outside the App Store, macOS may display a warning such as "Apple cannot verify this app" upon first launch. To open the app, please navigate to `System Settings` -> `Privacy & Security`, locate the security prompt, and click `Open Anyway`. 
 > 
 > **Get the Stable Release**: The official, polished version of Lattice is currently in preparation. Once officially launched, you will be able to **download the stable version from the Mac App Store**, which will offer the best stability and seamless automatic updates.
@@ -14,7 +16,7 @@ Lattice is written in native Swift. It is not a web wrapper, not an Electron she
 
 ![Lattice Hero](./lattice_intro/1_en.png)
 
-**System Requirement:** macOS 15.0 (Sequoia) or later. *Built to leverage the latest native technologies.*
+**System Requirement:** macOS 14.0 (Sonoma) or later. *Built to leverage native macOS technologies while keeping the experience polished and lightweight.*
 
 ## Overview
 

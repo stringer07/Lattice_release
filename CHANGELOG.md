@@ -4,6 +4,50 @@
 
 This file records notable changes for Lattice.
 
+## v2.0(7)
+
+#### Added
+
+- Added macOS 14.0 support.
+
+## v2.0(4)
+
+#### Added
+
+- Added a collection context menu option to choose whether papers from subcollections are shown.
+
+## v2.0(2)
+
+#### Major
+
+- Added support for multi-level collections, with up to three levels.
+- Collections and tags can now be reordered via drag and drop.
+
+#### Fixed
+
+- Fixed lag when expanding or collapsing the right panel at the minimum window width.
+
+#### Improved
+
+- Reworked much of the concurrency logic, which is expected to improve overall stability.
+
+## v1.3.2
+
+#### Added
+
+- Added a local port that allows external plugins to be built and used through it, including plugins such as a Word plugin.
+- Added two new export template variables, `latticeurl` and `pdfurl`. Clicking `latticeurl` jumps back to Lattice and focuses the specified reference; clicking `pdfurl` opens the linked PDF when available.
+
+#### Improved
+
+- Updated the default template to include `latticeurl` and `pdfurl`, along with minor style adjustments.
+- Significantly improved performance and reduced memory usage when importing large numbers of PDFs.
+- Refactored the main page internals to make the experience smoother and lower in memory usage while keeping the visual appearance unchanged. This also fixes the occasional squeezing and lag when expanding or collapsing the left sidebar.
+
+#### Fixed
+
+- Fixed several bugs, including the issue where the template interface height could jump unexpectedly.
+
 ## v1.0-rc - 2026-03-31
 
 #### Major
