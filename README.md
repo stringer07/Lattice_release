@@ -2,14 +2,15 @@
 
  [中文](./README.zh-CN.md) |  [Changelog](./CHANGELOG.md) 
 
-> **⚠️ Test & Preview Version Notice**  
-> This repository provides **test and preview versions** of Lattice Scholar, which are intended for test community feedback. Please note that **stability is not fully guaranteed** in these builds.
+> **Mac App Store Release**: Lattice Scholar is now available on the Mac App Store:  
+> https://apps.apple.com/cn/app/lattice-scholar/id6761349832?mt=12
 > 
-> **Latest Beta on TestFlight**: You can test the newest beta builds on TestFlight: https://testflight.apple.com/join/xBV767wY
+> **Tester Reward**: If you report an issue, help verify it, and that work leads to a fix, contact `stringer_fan@qq.com` for additional discounts.
 > 
-> **Installation Note**: Due to being distributed outside the App Store, macOS may display a warning such as "Apple cannot verify this app" upon first launch. To open the app, please navigate to `System Settings` -> `Privacy & Security`, locate the security prompt, and click `Open Anyway`. 
-> 
-> **Get the Stable Release**: The official, polished version of Lattice is currently in preparation. Once officially launched, you will be able to **download the stable version from the Mac App Store**, which will offer the best stability and seamless automatic updates.
+> **TestFlight Beta**: If you want early access to upcoming features, the latest beta is still available on TestFlight and is currently limited to 20 testers:  
+> https://testflight.apple.com/join/xBV767wY
+
+[![Download on the Mac App Store](./lattice_intro/Download_on_the_Mac_App_Store_Badge_US-UK_RGB_blk_092917.svg)](https://apps.apple.com/cn/app/lattice-scholar/id6761349832?mt=12)
 
 A lightweight literature manager built specifically for macOS.  
 Lattice is written in native Swift. It is not a web wrapper, not an Electron shell, and not an attempt to replace your entire reading setup. Instead, it focuses on doing a few things extremely well: metadata management, PDF annotation extraction, template-based export, and automation-friendly integration with the rest of your workflow.

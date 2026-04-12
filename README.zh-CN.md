@@ -2,14 +2,15 @@
 
  [English](./README.md) |  [更新日志](./CHANGELOG.zh-CN.md) 
 
-> **⚠️ 测试预览版须知**  
-> 本仓库提供的是 Lattice Scholar的**测试预览版本**，主要用于测试社区反馈，**暂不保证完全的稳定性**。
+> **Mac App Store 正式版**：Lattice Scholar 已正式上架 Mac App Store，下载地址：  
+> https://apps.apple.com/cn/app/lattice-scholar/id6761349832?mt=12
 > 
-> **最新测试版 TestFlight**：可通过 TestFlight 体验最新测试版：https://testflight.apple.com/join/xBV767wY
+> **协助测试者说明**：提交 Issue 且协助测试、并最终推动问题修复的用户，可联系 `stringer_fan@qq.com` 获取更多优惠。
 > 
-> **安装提示**：由于测试版未经过 Mac App Store 分发，首次打开时 macOS 可能会提示“无法验证该应用是否安全”。如需继续，请前往 `系统设置` -> `隐私与安全性`，在安全提示处点击 `仍要打开`。
-> 
-> **稳定正式版**：Lattice 正式版正在积极筹备中。待 App 完善并正式上线后，推荐您**前往 Mac App Store 下载正式版**，以获得最稳定的使用体验和无缝的自动更新服务。
+> **TestFlight 测试版**：如果你希望提前体验新功能，也可以通过 TestFlight 获取最新测试版本，当前限额 20 人：  
+> https://testflight.apple.com/join/xBV767wY
+
+[![Download on the Mac App Store](./lattice_intro/Download_on_the_Mac_App_Store_Badge_US-UK_RGB_blk_092917.svg)](https://apps.apple.com/cn/app/lattice-scholar/id6761349832?mt=12)
 
 一款专为 macOS 打造的轻量文献管理软件。  
 基于 Swift 原生开发，不是网页壳，不是 Electron，不试图接管你的整套阅读工作流，而是专注把文献管理、元数据整理、PDF 标注提取、模板导出和自动化联动这几件事做到优雅、简洁、可靠。
