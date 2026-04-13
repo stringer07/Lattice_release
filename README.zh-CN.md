@@ -1,8 +1,8 @@
-# Lattice Scholar
+# Lattice: Reference Manager
 
  [English](./README.md) |  [更新日志](./CHANGELOG.zh-CN.md) 
 
-> **Mac App Store 正式版**：Lattice Scholar 已正式上架 Mac App Store，下载地址：  
+> **Mac App Store 正式版**：Lattice: Reference Manager 已正式上架 Mac App Store，下载地址：  
 > https://apps.apple.com/cn/app/lattice-scholar/id6761349832?mt=12
 > 
 > **协助测试者说明**：提交 Issue 且协助测试、并最终推动问题修复的用户，可联系 `stringer_fan@qq.com` 获取更多优惠。
@@ -12,7 +12,7 @@
 
 [![Download on the Mac App Store](./lattice_intro/Download_on_the_Mac_App_Store_Badge_US-UK_RGB_blk_092917.svg)](https://apps.apple.com/cn/app/lattice-scholar/id6761349832?mt=12)
 
-一款专为 macOS 打造的轻量文献管理软件。  
+Lattice: Reference Manager，简称 Lattice，是一款专为 macOS 打造的轻量文献管理软件。  
 基于 Swift 原生开发，不是网页壳，不是 Electron，不试图接管你的整套阅读工作流，而是专注把文献管理、元数据整理、PDF 标注提取、模板导出和自动化联动这几件事做到优雅、简洁、可靠。
 
 ![Lattice Hero](./lattice_intro/1.png)

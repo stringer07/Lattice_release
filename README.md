@@ -1,8 +1,8 @@
-# Lattice Scholar
+# Lattice: Reference Manager
 
  [中文](./README.zh-CN.md) |  [Changelog](./CHANGELOG.md) 
 
-> **Mac App Store Release**: Lattice Scholar is now available on the Mac App Store:  
+> **Mac App Store Release**: Lattice: Reference Manager is now available on the Mac App Store:  
 > https://apps.apple.com/cn/app/lattice-scholar/id6761349832?mt=12
 > 
 > **Tester Reward**: If you report an issue, help verify it, and that work leads to a fix, contact `stringer_fan@qq.com` for additional discounts.
@@ -12,8 +12,8 @@
 
 [![Download on the Mac App Store](./lattice_intro/Download_on_the_Mac_App_Store_Badge_US-UK_RGB_blk_092917.svg)](https://apps.apple.com/cn/app/lattice-scholar/id6761349832?mt=12)
 
-A lightweight literature manager built specifically for macOS.  
-Lattice is written in native Swift. It is not a web wrapper, not an Electron shell, and not an attempt to replace your entire reading setup. Instead, it focuses on doing a few things extremely well: metadata management, PDF annotation extraction, template-based export, and automation-friendly integration with the rest of your workflow.
+Lattice: Reference Manager, or simply Lattice, is a lightweight literature manager built specifically for macOS.  
+It is written in native Swift. It is not a web wrapper, not an Electron shell, and not an attempt to replace your entire reading setup. Instead, it focuses on doing a few things extremely well: metadata management, PDF annotation extraction, template-based export, and automation-friendly integration with the rest of your workflow.
 
 ![Lattice Hero](./lattice_intro/1_en.png)
 
