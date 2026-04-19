@@ -4,6 +4,20 @@
 
 This file records notable changes for Lattice.
 
+## v2.1.6
+
+#### Major
+
+- One-Click Zotero Migration: Find the Zotero Import feature under `Settings > Backup` to effortlessly migrate your entire library.
+- RIS Support: Full support for `.ris` files. You can now import, export, and copy bibliographic data in RIS format.
+- Backup & Restore: Keep your library safe with the new manual backup and restore functions.
+- Manual Entry: Added support for manually adding papers via `Import > Manual Add` in the top-right corner.
+- Enhanced Paper List: Added `Note` and `Date Added` fields. You can now sort by date and see your notes directly in the list.
+
+#### Fixed
+
+- Bug Fixes: Resolved issues where sidebar statistics and paper ratings did not refresh promptly.
+
 ## v2.0(7)
 
 #### Added
