@@ -3,68 +3,291 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Lattice: Reference Manager Support</title>
-  <style>
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      max-width: 760px;
-      margin: 0 auto;
-      padding: 40px 20px;
-      line-height: 1.7;
-      color: #1f2328;
-      background: #ffffff;
-    }
-    h1, h2 { line-height: 1.25; }
-    .muted { color: #57606a; }
-    .card {
-      border: 1px solid #d0d7de;
-      border-radius: 12px;
-      padding: 18px 20px;
-      margin: 18px 0;
-      background: #f6f8fa;
-    }
-    a { color: #0969da; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    code {
-      background: #f6f8fa;
-      padding: 2px 6px;
-      border-radius: 6px;
-    }
-  </style>
+  <title>Lattice — Reference Manager for macOS</title>
+  <meta name="description" content="A lightweight, elegant reference manager built natively for macOS. Manage your literature, extract PDF annotations, and connect with your writing workflow.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-  <h1>Lattice: Reference Manager Support</h1>
-  <p class="muted">Technical support page for Lattice: Reference Manager ("Lattice"), the macOS app.</p>
 
-  <div class="card">
-    <p><strong>Lattice: Reference Manager</strong> ("Lattice") is a lightweight literature manager built for macOS.</p>
-    <p>Latest beta builds are available on TestFlight: <a href="https://testflight.apple.com/join/xBV767wY">https://testflight.apple.com/join/xBV767wY</a></p>
-    <p>Support contact: <a href="mailto:stringer_fan@qq.com">stringer_fan@qq.com</a></p>
+<!-- Navigation -->
+<nav>
+  <div class="nav-inner">
+    <a href="./index.html" class="nav-brand">Lattice</a>
+    <ul class="nav-links">
+      <li><a href="./features.html">Features</a></li>
+      <li><a href="./workflow.html">Workflow</a></li>
+      <li><a href="./support.html">Support</a></li>
+      <li>
+        <a href="https://apps.apple.com/cn/app/lattice-scholar/id6761349832?mt=12"
+           class="nav-download">Download →</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Hero -->
+<div class="hero-section">
+  <div class="hero-text">
+    <span class="eyebrow hero-a1">Reference Manager for macOS</span>
+    <h1 class="hero-title hero-a2">Your literature,<br><em>beautifully managed.</em></h1>
+    <p class="hero-sub hero-a3">
+      Lightweight, native, and built around your workflow.
+      Lattice handles the metadata so you can focus on the research.
+    </p>
+    <div class="hero-actions hero-a4">
+      <a href="https://apps.apple.com/cn/app/lattice-scholar/id6761349832?mt=12"
+         class="btn btn-dark">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" style="flex-shrink:0">
+          <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+        </svg>
+        Download Free
+      </a>
+      <a href="https://testflight.apple.com/join/xBV767wY" class="btn btn-outline">
+        Join TestFlight Beta →
+      </a>
+    </div>
   </div>
 
-  <h2>Frequently Asked Questions</h2>
+  <div class="hero-screenshot hero-a5">
+    <img src="./res/pictures/image%201.png"
+         alt="Lattice reference manager — main interface showing three-column layout with library, paper list, and metadata panel"
+         loading="eager">
+  </div>
+</div>
 
-  <h3>1. Which macOS versions are supported?</h3>
-  <p>Lattice is designed for macOS 14.0 or later.</p>
+<!-- Pillars -->
+<section class="section section--white">
+  <div class="section-inner">
+    <div class="section-header--center reveal">
+      <span class="section-eyebrow">The Lattice Difference</span>
+      <h2 class="section-title">Built to get out<br>of your way.</h2>
+      <p class="section-desc">
+        Most reference managers want to own your workflow. Lattice is designed to fit into it.
+      </p>
+    </div>
 
-  <h3>2. How do I report a bug or request a feature?</h3>
-  <p>Please send an email to <a href="mailto:stringer_fan@qq.com">stringer_fan@qq.com</a> with your macOS version, app version, and a short description of the issue.</p>
+    <div class="pillars-grid">
+      <div class="pillar reveal">
+        <div class="pillar-icon">
+          <svg viewBox="0 0 24 24">
+            <rect x="2" y="3" width="20" height="14" rx="2"/>
+            <path d="M8 21h8M12 17v4"/>
+          </svg>
+        </div>
+        <h3>Native macOS, first</h3>
+        <p>Written in Swift. Native windows, sidebars, tables, Quick Look, and Shortcuts integration — exactly as macOS was designed. Not a web wrapper.</p>
+      </div>
+      <div class="pillar reveal reveal-delay-1">
+        <div class="pillar-icon">
+          <svg viewBox="0 0 24 24">
+            <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+          </svg>
+        </div>
+        <h3>Lightweight by design</h3>
+        <p>Under 20 MB. Under 50 MB of RAM. Lattice links to your PDFs — never duplicates them. Your files stay exactly where you keep them.</p>
+      </div>
+      <div class="pillar reveal reveal-delay-2">
+        <div class="pillar-icon">
+          <svg viewBox="0 0 24 24">
+            <polyline points="16 18 22 12 16 6"/>
+            <polyline points="8 6 2 12 8 18"/>
+          </svg>
+        </div>
+        <h3>Open, always</h3>
+        <p>Markdown export. BibTeX import and export. TextBundle. Apple Shortcuts. Clipboard. Your research stays portable — always in formats you own.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-  <h3>3. What information should I include in a support request?</h3>
-  <p>Please include:</p>
-  <ul>
-    <li>Your macOS version</li>
-    <li>The app version</li>
-    <li>Steps to reproduce the problem</li>
-    <li>A screenshot if relevant</li>
-  </ul>
+<!-- Feature: PDF Annotations -->
+<section class="section section--cream">
+  <div class="section-inner">
+    <div class="feature-row">
+      <div class="feature-content reveal">
+        <span class="section-eyebrow">PDF Annotations</span>
+        <h2 class="section-title">Your highlights,<br><em>structured.</em></h2>
+        <p class="section-desc">
+          Lattice reads annotations directly from your PDF — highlights, underlines, notes, and region snapshots — and turns them into organised, exportable data.
+        </p>
+        <div class="feature-bullets">
+          <div class="feature-bullet">
+            <div class="bullet-dot"></div>
+            <p>Extracts highlights, underlines, strikethroughs, free text, and shape annotations</p>
+          </div>
+          <div class="feature-bullet">
+            <div class="bullet-dot"></div>
+            <p>Captures selected text, comments, page number, and color for each annotation</p>
+          </div>
+          <div class="feature-bullet">
+            <div class="bullet-dot"></div>
+            <p>Box and circle regions export as cropped images, preserving figures and tables</p>
+          </div>
+        </div>
+      </div>
+      <div class="feature-image reveal reveal-delay-2">
+        <img src="./res/intro/5_en.png" alt="PDF annotation extraction in Lattice — highlights and notes shown in the inspector panel">
+      </div>
+    </div>
+  </div>
+</section>
 
-  <h2>Privacy</h2>
-  <p>Please review the <a href="./privacy.html">Privacy Policy</a>.</p>
+<!-- Feature: Smart Import -->
+<section class="section section--white">
+  <div class="section-inner">
+    <div class="feature-row feature-row--rev">
+      <div class="feature-content reveal">
+        <span class="section-eyebrow">Smart Import</span>
+        <h2 class="section-title">Metadata,<br><em>handled.</em></h2>
+        <p class="section-desc">
+          Drop in a PDF, enter a DOI, or import BibTeX. Lattice extracts what it can from the file and fetches the rest — title, authors, year, abstract, journal, and more.
+        </p>
+        <div class="feature-bullets">
+          <div class="feature-bullet">
+            <div class="bullet-dot"></div>
+            <p>PDF drag-and-drop with automatic DOI and arXiv identifier detection</p>
+          </div>
+          <div class="feature-bullet">
+            <div class="bullet-dot"></div>
+            <p>DOI lookup against multiple academic metadata services simultaneously</p>
+          </div>
+          <div class="feature-bullet">
+            <div class="bullet-dot"></div>
+            <p>BibTeX import for seamless migration from existing libraries</p>
+          </div>
+        </div>
+      </div>
+      <div class="feature-image reveal reveal-delay-2">
+        <img src="./res/intro/4_en.png" alt="Smart metadata import in Lattice — auto-fetch from PDF, DOI, and BibTeX">
+      </div>
+    </div>
+  </div>
+</section>
 
-  <h2>Contact</h2>
-  <p>Email: <a href="mailto:stringer_fan@qq.com">stringer_fan@qq.com</a></p>
+<!-- Feature: Shortcuts -->
+<section class="section section--cream-mid">
+  <div class="section-inner">
+    <div class="feature-row">
+      <div class="feature-content reveal">
+        <span class="section-eyebrow">Apple Shortcuts</span>
+        <h2 class="section-title">One shortcut<br><em>to your notes.</em></h2>
+        <p class="section-desc">
+          Select a paper, trigger a Shortcut. Lattice renders your metadata and annotations using your own template and places the result directly into Obsidian, Bear, Notion — or anywhere else.
+        </p>
+        <div class="feature-bullets">
+          <div class="feature-bullet">
+            <div class="bullet-dot"></div>
+            <p>Pick any paper from your Lattice library inside any Shortcut</p>
+          </div>
+          <div class="feature-bullet">
+            <div class="bullet-dot"></div>
+            <p>Returns formatted Markdown using your fully customisable template</p>
+          </div>
+          <div class="feature-bullet">
+            <div class="bullet-dot"></div>
+            <p>Include annotations, metadata, and abstract — all in one pass</p>
+          </div>
+        </div>
+      </div>
+      <div class="feature-image reveal reveal-delay-2">
+        <img src="./res/intro/6_en.png" alt="Apple Shortcuts integration in Lattice — one-click export to any notes app">
+      </div>
+    </div>
+  </div>
+</section>
 
-  <p class="muted">Last updated: April 2026</p>
+<!-- Specs strip -->
+<section class="section section--navy" style="padding: 80px 32px;">
+  <div class="section-inner">
+    <div class="spec-strip">
+      <div class="spec-item reveal">
+        <div class="spec-num">&lt;20</div>
+        <div class="spec-label">MB — app size on disk,<br>intentionally tiny</div>
+      </div>
+      <div class="spec-item reveal reveal-delay-1">
+        <div class="spec-num">&lt;50</div>
+        <div class="spec-label">MB — typical memory<br>footprint during use</div>
+      </div>
+      <div class="spec-item reveal reveal-delay-2">
+        <div class="spec-num">14+</div>
+        <div class="spec-label">macOS Sonoma or later,<br>built for modern Mac</div>
+      </div>
+      <div class="spec-item reveal reveal-delay-3">
+        <div class="spec-num">Free</div>
+        <div class="spec-label">on the Mac App Store,<br>no subscription</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="section section--navy">
+  <div class="section-inner">
+    <div class="section-header--center reveal">
+      <span class="section-eyebrow" style="color:var(--rose-mid)">Available Now</span>
+      <h2 class="section-title" style="color:var(--white)">Take control of<br>your research.</h2>
+      <p class="section-desc" style="text-align:center; margin: 0 auto;">
+        Free on the Mac App Store. Or join the TestFlight beta for early access to upcoming features.
+      </p>
+    </div>
+    <div class="cta-actions reveal reveal-delay-1">
+      <a href="https://apps.apple.com/cn/app/lattice-scholar/id6761349832?mt=12" class="btn btn-white">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" style="flex-shrink:0">
+          <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+        </svg>
+        Download on Mac App Store
+      </a>
+      <a href="https://testflight.apple.com/join/xBV767wY" class="btn btn-ghost">
+        Join TestFlight Beta →
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div>
+        <div class="footer-brand">Lattice</div>
+        <p class="footer-tagline">A lightweight, native reference<br>manager for macOS.</p>
+      </div>
+      <div class="footer-links-group">
+        <div class="footer-col">
+          <h4>Product</h4>
+          <ul>
+            <li><a href="./features.html">Features</a></li>
+            <li><a href="./workflow.html">Workflow</a></li>
+            <li><a href="https://apps.apple.com/cn/app/lattice-scholar/id6761349832?mt=12">Download</a></li>
+            <li><a href="https://testflight.apple.com/join/xBV767wY">TestFlight Beta</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="./support.html">FAQ</a></li>
+            <li><a href="./privacy.html">Privacy Policy</a></li>
+            <li><a href="mailto:stringer_fan@qq.com">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-copy">© 2026 Lattice. All rights reserved.</p>
+      <p class="footer-req">Requires macOS 14.0 Sonoma or later.</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+  const observer = new IntersectionObserver(
+    entries => entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); }),
+    { threshold: 0.08, rootMargin: '0px 0px -32px 0px' }
+  );
+  document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+</script>
 </body>
 </html>

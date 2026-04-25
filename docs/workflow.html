@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Workflow — Lattice Reference Manager</title>
+  <meta name="description" content="How Lattice fits into your research workflow — from importing PDFs to exporting annotated notes into Obsidian, Bear, and beyond.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav>
+  <div class="nav-inner">
+    <a href="./index.html" class="nav-brand">Lattice</a>
+    <ul class="nav-links">
+      <li><a href="./features.html">Features</a></li>
+      <li><a href="./workflow.html" style="opacity:1">Workflow</a></li>
+      <li><a href="./support.html">Support</a></li>
+      <li>
+        <a href="https://apps.apple.com/cn/app/lattice-scholar/id6761349832?mt=12"
+           class="nav-download">Download →</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Page hero -->
+<section class="section section--cream" style="padding-bottom: 80px;">
+  <div class="section-inner">
+    <div class="section-header--center reveal" style="padding-top: 56px;">
+      <span class="section-eyebrow">Workflow</span>
+      <h1 class="section-title" style="font-size: clamp(44px, 6vw, 72px);">
+        Your research,<br><em>your way.</em>
+      </h1>
+      <p class="section-desc" style="text-align:center; margin: 0 auto;">
+        Lattice is not a closed ecosystem. It is a precision layer between your PDFs and your writing — lightweight enough to fit into any research setup.
+      </p>
+    </div>
+
+    <!-- Two workflow panels -->
+    <div class="workflow-intro">
+      <div class="workflow-panel reveal">
+        <span class="workflow-num">Workflow 01</span>
+        <h3>PDF → Annotations → Markdown</h3>
+        <p>Import a paper, read and annotate in your PDF app, return to Lattice to extract your highlights, and export a structured Markdown note — complete with figure images.</p>
+      </div>
+      <div class="workflow-panel reveal reveal-delay-1">
+        <span class="workflow-num">Workflow 02</span>
+        <h3>DOI → Metadata → Shortcut → Notes</h3>
+        <p>Enter a DOI, auto-fill a complete metadata record, add tags and notes, then trigger a Shortcut to push a formatted citation card directly into Obsidian, Bear, or any notes app.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── Workflow 01 ─────────────────────────────────── -->
+<section class="section section--white">
+  <div class="section-inner">
+    <div class="section-header reveal">
+      <span class="section-eyebrow">Workflow 01</span>
+      <h2 class="section-title">From PDF<br>to structured note.</h2>
+      <p class="section-desc">Read anywhere. Annotate however you like. Let Lattice turn those highlights into an exportable, searchable record.</p>
+    </div>
+
+    <div class="workflow-steps">
+
+      <div class="workflow-step">
+        <div class="step-content reveal">
+          <div class="step-number">01</div>
+          <h3>Import your PDF</h3>
+          <p>Drag a PDF from Finder, use the file picker, or enter a DOI to fetch the paper first and attach the file later. Lattice immediately scans the document for DOI and arXiv identifiers, then queries academic databases to fill in title, authors, year, abstract, and journal.</p>
+          <div class="feature-bullets" style="margin-top: 28px;">
+            <div class="feature-bullet">
+              <div class="bullet-dot"></div>
+              <p>Duplicate detection — Skip, Replace, or apply to all in a batch</p>
+            </div>
+            <div class="feature-bullet">
+              <div class="bullet-dot"></div>
+              <p>Drag multiple PDFs in at once for batch import</p>
+            </div>
+          </div>
+        </div>
+        <div class="step-image reveal reveal-delay-2">
+          <img src="./res/intro/4_en.png" alt="Import a PDF and auto-fetch metadata from DOI">
+        </div>
+      </div>
+
+      <div class="workflow-step workflow-step--rev">
+        <div class="step-content reveal">
+          <div class="step-number">02</div>
+          <h3>Read &amp; annotate — your way</h3>
+          <p>Open the linked PDF in whatever reader you already use — PDF Expert, Skim, Apple Preview, or anything else. Lattice does not bundle a PDF reader. That is intentional. Your reading habits stay yours.</p>
+          <div class="feature-bullets" style="margin-top: 28px;">
+            <div class="feature-bullet">
+              <div class="bullet-dot"></div>
+              <p>Press <kbd style="background:var(--rose-bg);padding:2px 8px;border-radius:5px;font-size:13px;font-family:var(--sans)">Space</kbd> in Lattice for Quick Look without opening the reader</p>
+            </div>
+            <div class="feature-bullet">
+              <div class="bullet-dot"></div>
+              <p>Press <kbd style="background:var(--rose-bg);padding:2px 8px;border-radius:5px;font-size:13px;font-family:var(--sans)">Enter</kbd> to open directly in your default PDF app</p>
+            </div>
+          </div>
+        </div>
+        <div class="step-image reveal reveal-delay-2">
+          <img src="./res/intro/2_en.png" alt="Open the linked PDF in your preferred reader">
+        </div>
+      </div>
+
+      <div class="workflow-step">
+        <div class="step-content reveal">
+          <div class="step-number">03</div>
+          <h3>Extract annotations</h3>
+          <p>Return to Lattice. Your annotations are already there — extracted from the PDF and displayed in the Annotations tab of the inspector. Highlights, underlines, text notes, and for box or circle annotations, a cropped image of the marked region.</p>
+          <div class="feature-bullets" style="margin-top: 28px;">
+            <div class="feature-bullet">
+              <div class="bullet-dot"></div>
+              <p>Extraction happens automatically when you open or preview the PDF</p>
+            </div>
+            <div class="feature-bullet">
+              <div class="bullet-dot"></div>
+              <p>Region images — figures, tables, diagrams — travel with the export</p>
+            </div>
+          </div>
+        </div>
+        <div class="step-image reveal reveal-delay-2">
+          <img src="./res/intro/5_en.png" alt="Annotation extraction — highlights and region images in the inspector">
+        </div>
+      </div>
+
+      <div class="workflow-step workflow-step--rev">
+        <div class="step-content reveal">
+          <div class="step-number">04</div>
+          <h3>Export to Markdown or TextBundle</h3>
+          <p>Export using your custom template. Lattice writes a <code style="background:var(--rose-bg);padding:2px 7px;border-radius:5px;font-size:13px">.md</code> file when you only need text, or a <code style="background:var(--rose-bg);padding:2px 7px;border-radius:5px;font-size:13px">.textbundle</code> when annotation images should travel alongside the note. Drop the result into Obsidian, Bear, Craft, or any Markdown-based tool.</p>
+          <div class="feature-bullets" style="margin-top: 28px;">
+            <div class="feature-bullet">
+              <div class="bullet-dot"></div>
+              <p>Customise the template once — every export follows it</p>
+            </div>
+            <div class="feature-bullet">
+              <div class="bullet-dot"></div>
+              <p>TextBundle keeps images inside a self-contained package</p>
+            </div>
+            <div class="feature-bullet">
+              <div class="bullet-dot"></div>
+              <p>Batch-export multiple papers in a single action</p>
+            </div>
+          </div>
+        </div>
+        <div class="step-image reveal reveal-delay-2">
+          <img src="./res/intro/7_en.png" alt="Export to Markdown or TextBundle with custom templates">
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ─── Workflow 02 ─────────────────────────────────── -->
+<section class="section section--cream">
+  <div class="section-inner">
+    <div class="section-header reveal">
+      <span class="section-eyebrow">Workflow 02</span>
+      <h2 class="section-title">From DOI<br>to your notes app.</h2>
+      <p class="section-desc">The metadata-first path — add papers by DOI, build your record, then push a formatted citation card to any notes app with one Shortcut.</p>
+    </div>
+
+    <div class="workflow-steps">
+
+      <div class="workflow-step">
+        <div class="step-content reveal">
+          <div class="step-number">01</div>
+          <h3>Add via DOI or BibTeX</h3>
+          <p>Enter a DOI to fetch a complete metadata record — or import a <code style="background:var(--rose-bg);padding:2px 7px;border-radius:5px;font-size:13px">.bib</code> file from Zotero, Mendeley, or any BibTeX-compatible tool. Lattice pulls title, authors, year, journal, abstract, volume, issue, pages, and generates a citekey.</p>
+          <div class="feature-bullets" style="margin-top: 28px;">
+            <div class="feature-bullet">
+              <div class="bullet-dot"></div>
+              <p>Multiple metadata services queried in parallel for best coverage</p>
+            </div>
+            <div class="feature-bullet">
+              <div class="bullet-dot"></div>
+              <p>Attach a PDF later — or work purely with the metadata record</p>
+            </div>
+          </div>
+        </div>
+        <div class="step-image reveal reveal-delay-2">
+          <img src="./res/pictures/Rectangle.png" alt="Pick a paper from the Lattice library via Shortcut">
+        </div>
+      </div>
+
+      <div class="workflow-step workflow-step--rev">
+        <div class="step-content reveal">
+          <div class="step-number">02</div>
+          <h3>Organise and annotate</h3>
+          <p>Assign the paper to Collections and Tags, set a star rating, and add your own freeform notes. The inspector gives you full access to every metadata field — all editable inline, all saved locally.</p>
+          <div class="feature-bullets" style="margin-top: 28px;">
+            <div class="feature-bullet">
+              <div class="bullet-dot"></div>
+              <p>Collections: "Machine Learning", "To Read", "Writing"</p>
+            </div>
+            <div class="feature-bullet">
+              <div class="bullet-dot"></div>
+              <p>Tags with colors: "empirical", "important", "idea"</p>
+            </div>
+            <div class="feature-bullet">
+              <div class="bullet-dot"></div>
+              <p>Ratings, notes, and full metadata editing in one inspector</p>
+            </div>
+          </div>
+        </div>
+        <div class="step-image reveal reveal-delay-2">
+          <img src="./res/pictures/image%201.png" alt="Organise with collections, tags, and notes in the inspector">
+        </div>
+      </div>
+
+      <div class="workflow-step">
+        <div class="step-content reveal">
+          <div class="step-number">03</div>
+          <h3>Trigger a Shortcut</h3>
+          <p>Run your Lattice Shortcut from anywhere on macOS. A picker appears — choose the paper — and Lattice renders a formatted note using your template. The result is returned to the Shortcut for pasting, sharing, or routing into any app.</p>
+          <div class="feature-bullets" style="margin-top: 28px;">
+            <div class="feature-bullet">
+              <div class="bullet-dot"></div>
+              <p>Assign a global keyboard shortcut to trigger it from any app</p>
+            </div>
+            <div class="feature-bullet">
+              <div class="bullet-dot"></div>
+              <p>Include or exclude annotations with a single toggle</p>
+            </div>
+            <div class="feature-bullet">
+              <div class="bullet-dot"></div>
+              <p>Returns plain text — composable with any other Shortcut action</p>
+            </div>
+          </div>
+        </div>
+        <div class="step-image reveal reveal-delay-2">
+          <img src="./res/intro/6_en.png" alt="Apple Shortcuts integration — pick a paper, get formatted Markdown">
+        </div>
+      </div>
+
+      <div class="workflow-step workflow-step--rev">
+        <div class="step-content reveal">
+          <div class="step-number">04</div>
+          <h3>Land in your notes app</h3>
+          <p>The formatted note appears in Obsidian, Bear, Notion, Craft, or any app your Shortcut routes to. Lattice is not trying to replace your note-taking setup — it is built to connect your paper library to it, cleanly.</p>
+          <div class="feature-bullets" style="margin-top: 28px;">
+            <div class="feature-bullet">
+              <div class="bullet-dot"></div>
+              <p>Works with every app that accepts clipboard text or Shortcut output</p>
+            </div>
+            <div class="feature-bullet">
+              <div class="bullet-dot"></div>
+              <p>Your template controls exactly which fields appear and in what format</p>
+            </div>
+          </div>
+        </div>
+        <div class="step-image reveal reveal-delay-2">
+          <img src="./res/intro/3_en.png" alt="A clean, organised library ready for any workflow">
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Philosophy strip -->
+<section class="section section--navy">
+  <div class="section-inner">
+    <div class="section-header--center reveal" style="max-width: 660px;">
+      <span class="section-eyebrow" style="color:var(--rose-mid)">Philosophy</span>
+      <h2 class="section-title" style="color:var(--white)">The library manager<br>that cooperates.</h2>
+      <p class="section-desc" style="text-align:center; margin: 0 auto;">
+        Your PDF reader, notes app, and writing tool all remain exactly as you chose them. Lattice stays small, stays native, and stays out of the way.
+      </p>
+    </div>
+    <div class="spec-strip" style="margin-top: 64px;">
+      <div class="spec-item reveal">
+        <div class="spec-num" style="font-size:34px;line-height:1.2">Native</div>
+        <div class="spec-label">Swift on macOS —<br>not a web app in a window</div>
+      </div>
+      <div class="spec-item reveal reveal-delay-1">
+        <div class="spec-num" style="font-size:34px;line-height:1.2">Linked</div>
+        <div class="spec-label">PDFs stay where<br>they are — no copies</div>
+      </div>
+      <div class="spec-item reveal reveal-delay-2">
+        <div class="spec-num" style="font-size:34px;line-height:1.2">Open</div>
+        <div class="spec-label">Markdown, BibTeX,<br>Shortcuts, clipboard</div>
+      </div>
+      <div class="spec-item reveal reveal-delay-3">
+        <div class="spec-num" style="font-size:34px;line-height:1.2">Focused</div>
+        <div class="spec-label">Does a few things<br>extremely well</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="section section--cream">
+  <div class="section-inner">
+    <div class="section-header--center reveal">
+      <span class="section-eyebrow">Get started</span>
+      <h2 class="section-title">Ready when you are.</h2>
+      <p class="section-desc" style="text-align:center; margin: 0 auto;">
+        Free on the Mac App Store. Or join the TestFlight beta for early access to upcoming features.
+      </p>
+    </div>
+    <div class="cta-actions reveal reveal-delay-1">
+      <a href="https://apps.apple.com/cn/app/lattice-scholar/id6761349832?mt=12" class="btn btn-dark">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" style="flex-shrink:0">
+          <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+        </svg>
+        Download on Mac App Store
+      </a>
+      <a href="https://testflight.apple.com/join/xBV767wY" class="btn btn-outline">
+        Join TestFlight Beta →
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div>
+        <div class="footer-brand">Lattice</div>
+        <p class="footer-tagline">A lightweight, native reference<br>manager for macOS.</p>
+      </div>
+      <div class="footer-links-group">
+        <div class="footer-col">
+          <h4>Product</h4>
+          <ul>
+            <li><a href="./features.html">Features</a></li>
+            <li><a href="./workflow.html">Workflow</a></li>
+            <li><a href="https://apps.apple.com/cn/app/lattice-scholar/id6761349832?mt=12">Download</a></li>
+            <li><a href="https://testflight.apple.com/join/xBV767wY">TestFlight Beta</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="./support.html">FAQ</a></li>
+            <li><a href="./privacy.html">Privacy Policy</a></li>
+            <li><a href="mailto:stringer_fan@qq.com">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-copy">© 2026 Lattice. All rights reserved.</p>
+      <p class="footer-req">Requires macOS 14.0 Sonoma or later.</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+  const observer = new IntersectionObserver(
+    entries => entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); }),
+    { threshold: 0.08, rootMargin: '0px 0px -32px 0px' }
+  );
+  document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+</script>
+</body>
+</html>
