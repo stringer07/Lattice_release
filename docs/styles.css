@@ -718,6 +718,49 @@ footer {
 .reveal-delay-3 { transition-delay: 0.30s; }
 .reveal-delay-4 { transition-delay: 0.40s; }
 
+/* ─── Screenshot stack (library overview) ────────── */
+.screenshot-stack {
+  position: relative;
+  width: 100%;
+  padding-bottom: 72%;
+}
+.screenshot-stack img {
+  position: absolute;
+  border-radius: var(--r-md);
+  box-shadow: var(--shadow-lg);
+  transition: transform 0.9s var(--ease-out), opacity 0.9s var(--ease-out);
+}
+.stack-back {
+  width: 78%;
+  top: 14%;
+  left: 0;
+  transform: rotate(-5deg) translateY(10px);
+  opacity: 0;
+  transition-delay: 0.10s;
+  z-index: 1;
+}
+.stack-mid {
+  width: 82%;
+  top: 6%;
+  left: 7%;
+  transform: rotate(-1.5deg) translateY(8px);
+  opacity: 0;
+  transition-delay: 0.22s;
+  z-index: 2;
+}
+.stack-front {
+  width: 86%;
+  top: 0;
+  right: 0;
+  transform: rotate(2deg) translateY(6px);
+  opacity: 0;
+  transition-delay: 0.36s;
+  z-index: 3;
+}
+.reveal.visible .stack-back  { transform: rotate(-5deg);  opacity: 0.55; }
+.reveal.visible .stack-mid   { transform: rotate(-1.5deg); opacity: 0.80; }
+.reveal.visible .stack-front { transform: rotate(2deg);    opacity: 1;    }
+
 /* ─── Responsive ─────────────────────────────────── */
 @media (max-width: 900px) {
   .pillars-grid { grid-template-columns: 1fr; }
