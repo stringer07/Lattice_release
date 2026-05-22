@@ -593,17 +593,30 @@ nav {
 .faq-answer-inner {
   overflow: hidden;
 }
-.faq-answer-inner p, .faq-answer-inner ul {
+.faq-answer-inner p, .faq-answer-inner ul, .faq-answer-inner ol {
   padding-bottom: 28px;
   font-size: 16px;
   color: var(--gray);
   line-height: 1.7;
 }
-.faq-answer-inner ul {
+.faq-answer-inner ul, .faq-answer-inner ol {
   margin-left: 20px;
+}
+.faq-answer-inner ul {
   list-style: disc;
 }
-.faq-answer-inner ul li { margin-bottom: 6px; }
+.faq-answer-inner ol {
+  list-style: decimal;
+}
+.faq-answer-inner ul li, .faq-answer-inner ol li {
+  margin-bottom: 8px;
+}
+.faq-answer-inner code {
+  background: var(--rose-bg);
+  padding: 1px 6px;
+  border-radius: 4px;
+  font-size: 13px;
+}
 .faq-answer-inner a { color: var(--rose); text-decoration: underline; }
 
 /* ─── CTA section ────────────────────────────────── */

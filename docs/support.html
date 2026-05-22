@@ -190,14 +190,25 @@
 
       <div class="faq-item">
         <button class="faq-question" aria-expanded="false">
-          <span class="faq-question-text">Can I import from Zotero or Mendeley?</span>
+          <span class="faq-question-text">Can I import my library from other reference managers?</span>
           <span class="faq-icon">
             <svg viewBox="0 0 14 14"><line x1="7" y1="1" x2="7" y2="13"/><line x1="1" y1="7" x2="13" y2="7"/></svg>
           </span>
         </button>
         <div class="faq-answer" role="region">
           <div class="faq-answer-inner">
-            <p>Yes — via BibTeX. Export your library from Zotero or Mendeley as a <code style="background:var(--rose-bg);padding:1px 6px;border-radius:4px;font-size:13px">.bib</code> file, then import it into Lattice. Lattice will parse all standard BibTeX fields and create a record for each entry.</p>
+            <p>Yes. Lattice supports migrating your library from other reference managers using three main methods:</p>
+            <ol>
+              <li>
+                <strong>Zotero Migration:</strong> If you are a Zotero user, you can fully import your entire library, including all collections, folder hierarchies, and PDF attachments. In Lattice, navigate to <strong>Settings</strong> → <strong>Backup</strong> → <strong>Zotero</strong>, select <strong>Import</strong>, and choose the directory containing your <code>zotero.sqlite</code> database file.
+              </li>
+              <li>
+                <strong>Local PDF Folder Import:</strong> If your reference manager stores PDFs locally, you can directly drag and drop the folder containing your PDFs into the Lattice window. Alternatively, click the <strong>+</strong> (plus) icon in the top-right corner, select <strong>Import files</strong>, and choose the folder containing all your PDFs. Lattice will recursively scan all subfolders to automatically find and import every PDF.
+              </li>
+              <li>
+                <strong>BibTeX and RIS File Import:</strong> Lattice also fully supports importing metadata using <code>.bib</code> and <code>.ris</code> files. You can click the <strong>+</strong> (plus) icon in the top-right corner, select <strong>Import files</strong>, and choose your <code>.bib</code> or <code>.ris</code> file to import your records.
+              </li>
+            </ol>
           </div>
         </div>
       </div>
@@ -228,7 +239,7 @@
 </section>
 
 <!-- TestFlight note -->
-<section class="section section--cream" style="padding-top: 0; padding-bottom: 100px;">
+<section class="section section--cream" style="padding-top: 96px; padding-bottom: 96px;">
   <div class="section-inner" style="max-width: 760px;">
     <div class="reveal" style="background:var(--navy);border-radius:var(--r-lg);padding:52px 52px;display:flex;align-items:center;gap:48px;flex-wrap:wrap;">
       <div style="flex:1;min-width:200px;">
